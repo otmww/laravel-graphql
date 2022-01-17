@@ -30,6 +30,9 @@
         "phpunit/phpunit": "~4.0|~5.0|~5.7|~6.0|~7.0|~8.0"
     },
     "autoload": {
+        "files": [
+            "src/Folklore/GraphQL/Support/helpers.php"
+        ],
         "psr-0": {
             "Folklore\\GraphQL\\": "src/"
         }
